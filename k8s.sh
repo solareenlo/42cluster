@@ -1,6 +1,6 @@
 #!/bin/bash
 echo "#################### THIS SETUP SAVED ON GOINFRE IN ORDER TO SAVE SPACE ###################"
-#Setup variables 
+#Setup variables
 BREW_HOME=$HOME/.brew
 BREW_GOINFRE=$HOME/goinfre/.brew
 DOCKER_HOME=$HOME/.docker
