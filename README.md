@@ -12,3 +12,4 @@ cd 42cluster
 ## References
 - [alexandregv/42toolbox](https://github.com/alexandregv/42toolbox)
 - https://docs.brew.sh/Installation#untar-anywhere
+- [f0rkr/k8s-42-session-setup](https://github.com/f0rkr/k8s-42-session-setup)
