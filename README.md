@@ -9,6 +9,20 @@ cd 42cluster
 ./init_cluster.sh
 ```
 
+## Install Vim
+- clipboard を使いたいので新しい vim をインストールする．
+```shell
+brew update
+brew install vim
+```
+
+## Install Valgrind
+```shel
+brew tap LouisBrunner/valgrind
+brew install --HEAD LouisBrunner/valgrind/valgrind
+```
+- Reference: [LouisBrunner/valgrind-macos](https://github.com/LouisBrunner/valgrind-macos)
+
 ## References
 - [alexandregv/42toolbox](https://github.com/alexandregv/42toolbox)
 - https://docs.brew.sh/Installation#untar-anywhere
