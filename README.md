@@ -16,6 +16,11 @@ brew update
 brew install vim
 ```
 
+## Install tmux
+```shell
+brew install tmux
+```
+
 ## Install Valgrind
 ```shel
 brew tap LouisBrunner/valgrind

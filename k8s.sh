@@ -36,7 +36,7 @@ echo -n "🐳  " ;docker-machine start
 docker-machine env default
 eval "$(docker-machine env default)"
 
-[ ! -d $MINIKUBE_GOINFRE ] && echo "⭐️ $(tput setaf 1)------- Setup k8s + minikube ---------$(tput sgr 0) ⭐️" && brew install minikube 
+[ ! -d $MINIKUBE_GOINFRE ] && echo "⭐️ $(tput setaf 1)------- Setup k8s + minikube ---------$(tput sgr 0) ⭐️" && brew install minikube
 echo "💨 $(tput setaf 5)------- Running Minikube VM --------$(tput sgr 0) 💨"
 mkdir $MINIKUBE_GOINFRE
 ln -s $MINIKUBE_GOINFRE $MINIKUBE_HOME
